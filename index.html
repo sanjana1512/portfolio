@@ -3,123 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio - Sanjana Pendem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1 text-align="center">PortFolio</h1>
-    <section>
-        <h2>Self Introduction</h2>
-        <p>I'm Pendem Sanjana ,an enthutiast developer ,Coding enthusiast, and problem 
-            solver dedicated to mastering technology. I thrive on 
-            exploring new tech horizons, consistently seeking opportunities to 
-            innovate, learn, and contribute meaningfully to the world of software
-             development. Eager to collaborate with like-minded individuals and engage 
-             in projects that challenge and inspire. Let's build solutions, push boundaries, and make a positive impact together!</p>
-    </section>
-    <hr>
-    <section>
-        <h2>Skills</h2>
-            <ul>
-                <li>
-                    Java Programming
-                </li>
-                <li>
-                    DatabaseManagementSystems
-                </li>
-                <li>
-                    Mern Stack Web Development
-                </li>
-                <li>
-                    Operating System
-                </li>
-                <li>
-                    Deep Learning
-                </li>
-                <li>
-                    Generative AI 
-                </li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sanjana Pendem</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="text-center py-5 bg-light">
+        <h1 class="mb-3">Sanjana Pendem</h1>
+        <img src="profile.jpg" class="rounded-circle" alt="Profile Image" width="150">
+    </header>
+    
+    <div class="container mt-4">
+        <section id="contact" class="mb-5">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:sanjupendem15@gmail.com">sanjupendem15@gmail.com</a></p>
+            <p>Mobile: +91 XXXXXXXXXX</p>
+        </section>
+
+        <section class="mb-5">
+            <h2>Career Objective</h2>
+            <p>To leverage my technical skills and problem-solving ability in software development and contribute meaningfully to innovative projects.</p>
+        </section>
+
+        <section class="mb-5">
+            <h2>Academic Information</h2>
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institution</th>
+                        <th>Percentage/CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>B.Tech (CSE)</td>
+                        <td>KMIT</td>
+                        <td>Pursuing</td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>Sri Gayatri College</td>
+                        <td>98.2%</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>Medha Vignana Ratna School</td>
+                        <td>10 CGPA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="mb-5">
+            <h2>Technical Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Java, C++, Python</li>
+                <li class="list-group-item">MySQL, MongoDB</li>
+                <li class="list-group-item">HTML, CSS, JavaScript, React, Node.js, Express.js</li>
             </ul>
-    </section>
-    <hr>
-    <section>
-        <h2 class="heading">Latest <span>Project</span></h2>
-        <ol>
-                <li>
-                    <h4>Automated Attendence System using Facial Recognition</h4>
-                    <p>The Automated Attendance System will leverage face recognition technology to automate attendance marking for students of KMIT. The system will capture an individual's face, verify identity, and record attendance in a database. The solution aims to reduce manual attendance errors and increase efficiency, particularly in large colleges. </p>
-                    <a href="https://github.com/vsreddyh/identiscan">Link</a>
-                </div>
-            </li>
+        </section>
 
-            <li>
-                <div>
-                    <h4>Chat wiht Author</h4>
-                    <p>Developed a PDF-based AI chat system that allows users to upload PDFs, ask questions, and receive accurate, context-aware responses using Google Generative AI (GenAI) API. </p>
-                    <a href="https://github.com/Preetham1983/Chat-With-Author">Link</a>
+        <section id="projects" class="mb-5">
+            <h2>Projects</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><b>Automated Attendance System</b> - <a href="https://github.com/bhanu5125/PS-G77" class="btn btn-primary btn-sm">GitHub</a></li>
+                <li class="list-group-item"><b>Chat with Author</b> - <a href="https://github.com/sanjana1512/Project_22.git" class="btn btn-primary btn-sm">GitHub</a></li>
+                <li class="list-group-item"><b>Cognitive Retraining</b> - <a href="https://github.com/vsreddyh/identiscan.git" class="btn btn-primary btn-sm">GitHub</a></li>
+            </ul>
+        </section>
 
-                </div>
-            </li>
+        <section id="achievements" class="mb-5">
+            <h2>Achievements</h2>
+            <ol>
+                <li>Completed LinkedIn Generative AI course.</li>
+                <li>Developed AI-based IT training system.</li>
+                <li>Ranked top in college-level hackathons.</li>
+            </ol>
+        </section>
 
-            <li>
-                <div>
-                    <h4>Computerized cognitive Retraining Program for Home
-                        training of Children with Disabilities.</h4>
-                    <p >Developed a cognitive retraining system combining EEG Neuro-feedback and home training to improve attention, memory, reasoning, and problem-solving skills in children with developmental disabilities.</p>
-                    <a href="https://github.com/bhanu5125/PS-G77">Link</a>
-                </div>
-            </li>
-        </ol>
-    </section>
-    <hr>
-    <section class="certificates" id="certificates">
-        <h2 class="heading">My <span>Achievements</span></h2>
-        <div>
-            <div>
-                <h3>AI based IT training system</h3>
-                <p>The AI-based IT training project aims to revolutionize how IT skills are taught and acquired. By leveraging cutting-edge artificial intelligence, the program delivers personalized learning experiences tailored to each participant's unique needs and proficiency levels.Additionally, the AI system analyzes user performance data to provide insights and recommendations, enhancing the overall learning process.
-                </p>
-                <a href="0a5cb49f7c1cf5fb533608bfbd3ea4bdac1b1d2ec599078973267379a912d06f_page-0001.jpg" class="btn">View Certificate</a>
-            </div>
-   
-            <div class="certificates-box">
-                <i class='bx bxs-paint' ></i>
-                <h3> What is Generative AI ?</h3>
-                <p>The LinkedIn Generative AI course offers a comprehensive introduction to the principles and applications of generative artificial intelligence.Additionally, the course provides insights into the ethical considerations and future trends of generative AI, ensuring participants are well-prepared to leverage this transformative technology in their careers.</p>
-                <a href="CertificationOfGenerativeAI_page-0001.jpg" class="btn">View Certificate</a>      
-                
-            </div>              
-            </div>
+        <section class="mb-5">
+            <h2>Strengths</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Quick Learner</li>
+                <li class="list-group-item">Strong Problem-Solving Skills</li>
+                <li class="list-group-item">Adaptability</li>
+                <li class="list-group-item">Team Player</li>
+            </ul>
+        </section>
 
-        </div>
-    </section>
-    <hr>
-
-    <section>
-
-        <div class="about-content">
-            `<h2 class="heading">My <span>Education</span></h2>
-            <p>Pursuing a B.Tech in Computer Science at KMIT, 
-            I bring a solid academic foundation from Medha Vignana Ratna School (10 CGPA in SSC) 
-            and Sri Gayatri College (98.2% in Intermediate).
-            Positioned at the intersection of technology and innovation, 
-            I am poised to contribute substantively to the fields of Artificial
-             Intelligence and Machine Learning, leveraging a blend of academic 
-             rigor and a passion for cutting-edge advancements.</p>
-        </div>
-    </section>
-    <hr>
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-        <div class="social-media">
-            <ul>
-            <li>Email:sanjupendem15@gmail.com</li>
-            <li><a href="https://github.com/sanjana1512">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/sanjana-pendem-a283692ba/">LinkedIn</a></li>
-        </ul>
-        </div>
-        <a href="RESUME(3).pdf" class="btn">Open CV</a>
+        <section class="mb-5">
+            <h2>Personal Profile</h2>
+            <table class="table table-bordered">
+                <tr><th>Current Location</th><td>Hyderabad, India</td></tr>
+                <tr><th>Date of Birth</th><td>15th December 2003</td></tr>
+                <tr><th>Languages Known</th><td>English, Hindi, Telugu</td></tr>
+            </table>
+        </section>
     </div>
-    </section>
 
+    <footer class="text-center bg-dark text-light py-3">
+        <p>Connect with me:</p>
+        <a href="https://github.com/sanjana1512" class="btn btn-outline-light">GitHub</a>
+        <a href="https://www.linkedin.com/in/sanjana-pendem-a283692ba/" class="btn btn-outline-light">LinkedIn</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
